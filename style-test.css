@@ -50,6 +50,43 @@ body {
     margin-top: 0%;
 }
 
+.ctn {
+    width: 100%;
+    display: flex;
+}
+.ctn-item {
+    width: 33%;
+    position: relative;
+    height: 80px;
+}
+.ctn-item--iconsCtn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 60px;
+    width: 60px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.ctn-icon-relatif {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: relative;
+}
+.ctn-icon-absolue {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+/* .ctn-item--icons {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+} */
 /*Interactive contact information links*/
 
 .left-bloc-contact-informations {
@@ -182,24 +219,7 @@ body {
     position: relative;
     font-size: 333%;
 }
-.fa-dumbbell {
-    color: white;
-    position: absolute;
-    top: 15%;
-    left:7%;
-}
-.fa-music {
-    color: white;
-    position: absolute;
-    top: 15%;
-    left:11%;
-}
-.fa-book-reader {
-    color: white;
-    position: absolute;
-    top: 15%;
-    left:16%;
-}
+
 
 /*Next, it's the right bloc <div> about professional informations*/
 
